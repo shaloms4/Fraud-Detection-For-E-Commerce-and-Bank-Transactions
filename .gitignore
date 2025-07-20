@@ -1,0 +1,39 @@
+# Ignore data folder
+/data/
+
+# Ignore Python virtual environments
+venv/
+ENV/
+.env/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore pip wheel files
+*.whl
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore test and build folders
+build/
+dist/
+*.egg-info/
